@@ -5,7 +5,9 @@ class HomePageController < ApplicationController
  	
  end
 
+def obialo_action
 
+end
 
 
   
