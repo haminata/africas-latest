@@ -20,5 +20,8 @@ def weather
 
 end
 
+  def post
+
+  end
 
 end

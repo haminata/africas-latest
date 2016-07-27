@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  #resource :NewsArticles
+
   root 'home_page#index'
   get 'news_page/index'
   get 'contacts/index'
@@ -8,4 +10,5 @@ Rails.application.routes.draw do
   get 'news_page/technology'
   get 'news_page/entertainment'
   get 'news_page/weather'
+  get 'news_page/post'
 end
