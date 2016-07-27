@@ -1,14 +1,6 @@
 class HomePageController < ApplicationController
-
- def home
- 	
- 	
- end
-
-def obialo_action
+def index
 
 end
-
-
-  
 end
+
