@@ -24,4 +24,12 @@ end
 
   end
 
+  def post_create
+
+    render plain: params[:article].inspect
+  end
+
+def forum
+
+end
 end
