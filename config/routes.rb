@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   get 'news_page/post'
   post 'news_page/post_create'
   get  'forum_page/index'
+  get 'signin/index'
+
+
 end

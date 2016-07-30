@@ -1,7 +1,7 @@
 <%= form_for :article, url: news_page_post_create_path do |f| %>
     <p>
       <%= f.label :title %><br>
-      <%= f.text_field :title %>
+      <%= f.text_field :headline %>
     </p>
 
     <p>
@@ -11,11 +11,11 @@
 
     <p>
       <%= f.label :video %><br>
-      <%= f.text_field :video %>
+      <%= f.text_field :video_url %>
     </p>
     <p>
       <%= f.label :image %><br>
-      <%= f.text_field :image %>
+      <%= f.text_field :image_url %>
     </p>
 
     <p>

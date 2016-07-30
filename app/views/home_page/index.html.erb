@@ -1,3 +1,37 @@
 Welcome to Africa's latest
 
 <%= link_to('post article', news_page_post_path)%>
+
+
+
+<% [1, 2, 3].each do |number| %>
+
+    <div class="row">
+
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a>
+              <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-4">
+        <div class="thumbnail">
+          <img src="..." alt="...">
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a>
+              <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+<% end %>

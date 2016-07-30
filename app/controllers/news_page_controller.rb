@@ -25,8 +25,12 @@ end
   end
 
   def post_create
+    #render plain: params[:article].inspect
+    paramsToUse = params.require(:article).permit(:headline, :body, :video_url, :image_url)
+    newArticle = NewsArticle.new(paramsToUse)
+    newArticle.save()
 
-    render plain: params[:article].inspect
+    redirect_to root_path
   end
 
 def forum
