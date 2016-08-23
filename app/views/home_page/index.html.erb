@@ -4,15 +4,15 @@ Welcome to Africa's latest
 
 
 
-<% [1, 2, 3].each do |number| %>
+<% @imageNames.each do |imgName| %>
 
     <div class="row">
 
       <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-          <img src="..." alt="...">
+          <%= image_tag(imgName) %>
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>Syria</h3>
             <p>...</p>
             <p><a href="#" class="btn btn-primary" role="button">Button</a>
               <a href="#" class="btn btn-default" role="button">Button</a></p>
@@ -22,9 +22,9 @@ Welcome to Africa's latest
 
       <div class="col-sm-4 col-md-4">
         <div class="thumbnail">
-          <img src="..." alt="...">
+          <%= image_tag(imgName) %>
           <div class="caption">
-            <h3>Thumbnail label</h3>
+            <h3>kenya</h3>
             <p>...</p>
             <p><a href="#" class="btn btn-primary" role="button">Button</a>
               <a href="#" class="btn btn-default" role="button">Button</a></p>
